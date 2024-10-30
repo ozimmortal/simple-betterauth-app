@@ -1,8 +1,9 @@
+import Login from "@/components/login"
 
-export default async  function Home() { 
+export default function LoginPage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-        <h1 className="text-5xl font-bold">Home</h1>
+        <Login />
     </div>
   )
 }
